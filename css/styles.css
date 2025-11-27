@@ -33,3 +33,38 @@ nav a {
 nav a:hover {
   text-decoration: underline;
 }
+
+
+#about {
+  padding: 40px;
+  text-align: center;
+  background-color: #222; 
+  color: #fff;
+}
+
+
+.valores {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+  flex-wrap: wrap; 
+}
+
+
+.valor-item {
+  background-color: #fff;
+  color: #222;
+  padding: 20px;
+  width: 250px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+
+.valor-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
