@@ -1,8 +1,7 @@
-/* ===== ESTILOS DEL MENÚ ===== */
 
 #menu {
   padding: 40px 20px;
-  background-color: #1a1a1a; /* Fondo oscuro */
+  background-color: #1a1a1a; 
   color: #fff; 
 }
 
@@ -36,7 +35,7 @@
 }
 
 .price {
-  color: #d4af37; /* Dorado */
+  color: #d4af37; 
   font-weight: bold;
   font-size: 1.1rem;
 }
@@ -49,4 +48,54 @@ nav a {
 
 nav a:hover {
   text-decoration: underline;
+}
+
+footer {
+  background-color: #0d0d0d; 
+  color: #e6e6e6;            
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap; 
+  margin-bottom: 25px;
+}
+
+.footer-section h3 {
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.footer-section p,
+.footer-section a {
+  font-size: 0.95rem;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.social-links li {
+  margin: 5px 0;
+}
+
+.social-links a {
+  color: #d4d4d4;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #d4af37; 
+}
+
+footer p.copyright {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #bfbfbf;
 }
